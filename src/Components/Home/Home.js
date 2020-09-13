@@ -18,18 +18,19 @@ export default function Home() {
       <div className={`${styles["begin"]} panel`}>
         <h1>Our Story</h1>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Sit amet
-          dictum sit amet. Pharetra pharetra massa massa ultricies mi quis
-          hendrerit dolor. Non pulvinar neque laoreet suspendisse interdum. Et
-          netus et malesuada fames. Mauris a diam maecenas sed. Morbi tristique
-          senectus et netus et. Risus nullam eget felis eget nunc lobortis
-          mattis. Cum sociis natoque penatibus et magnis dis parturient. Aliquet
-          enim tortor at auctor urna nunc id. Vel quam elementum pulvinar etiam
-          non quam lacus suspendisse. Feugiat scelerisque varius morbi enim nunc
-          faucibus a. At auctor urna nunc id. Tristique magna sit amet purus
-          gravida quis. Vitae semper quis lectus nulla. Viverra vitae congue eu
-          consequat ac felis donec et.
+          Austin and Sally first met at their church. After about half a year of
+          getting to know each other, they went on a movie date to watch{" "}
+          <i>Deep Water Horizon</i> (a very un-romantic movie choice). Austin
+          asked Sally to be his girlfriend after the movie, and after a few
+          hours of deliberation, she agreed. Throughout the following years,
+          they grew as individuals and as a team. This journey continued for a
+          little over three years when Austin began planning for the marriage
+          proposal. He had everything planned out and was about to put in a
+          deposit for the location when the coronavirus hit. Plans had to be
+          halted temporarily and changed. It took a few more months for Austin
+          to finalize the details for the proposal and set the plan into motion.
+          On July 18th, 2020, Sally said "Yes"! They are now in the process of
+          planning for their wedding.
         </p>
       </div>
       <br />
@@ -39,6 +40,7 @@ export default function Home() {
             <img src={img} className={styles["img"]} alt="Austin and Sally" />
           ))}
         </ui5-carousel>
+        <div className={styles["photo-credit"]}>Photo Credit:&nbsp;<a href="https://crystalmak.myportfolio.com">Crystal Mak</a></div>
       </div>
     </div>
   );

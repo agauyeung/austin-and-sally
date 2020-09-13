@@ -3,7 +3,7 @@
   justify-content: space-between;
   align-items: center;
   border-bottom: 1px solid;
-  padding: 0.5rem;
+  padding: 0.5rem 1rem;
 }
 
 .link-wrapper {
@@ -11,7 +11,6 @@
 }
 
 .link-wrapper a {
-  color: #000;
   padding: 0.25rem 0;
   text-decoration: none;
 }

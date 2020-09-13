@@ -24,6 +24,15 @@
   opacity: 1;
 }
 
+.photo-credit {
+  background-color: #fff;
+  display: flex;
+  font-size: 0.5rem;
+  justify-content: flex-end;
+  padding: 0.25rem;
+  text-align: right;
+}
+
 @media only screen and (max-width: 768px) {
   .wrapper {
     flex-direction: column-reverse;
