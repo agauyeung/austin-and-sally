@@ -14,9 +14,9 @@ const images = [img8, img1, img2, img3, img4, img5, img6, img7];
 
 export default function Home() {
   return (
-    <div className={styles["wrapper"]}>
+    <div className={`content ${styles["content"]}`}>
       <div className={`${styles["begin"]} panel`}>
-        <h1>Our Story</h1>
+        <h2>Our Story</h2>
         <p>
           Austin and Sally first met at their church. After about half a year of
           getting to know each other, they went on a movie date to watch{" "}

@@ -1,0 +1,15 @@
+.panel {
+  align-items: center;
+  width: 50%;
+}
+
+.drawing {
+  height: 232px;
+  width: 300px;
+}
+
+@media only screen and (max-width: 768px) {
+  .panel {
+    width: auto;
+  }
+}
