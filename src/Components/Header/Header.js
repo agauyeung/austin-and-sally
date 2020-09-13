@@ -8,7 +8,7 @@ export default function Header() {
       <div className={styles["link-wrapper"]}>
         <a href="/">Our Story</a>
         <a href="/when-and-where">When & Where</a>
-        <a href="/contact">Contact Us</a>
+        <a href="mailto:agauyeung@usfca.edu">Contact Us</a>
       </div>
     </div>
   );
