@@ -9,7 +9,7 @@ export default function Header({ id }) {
         <a href="/">Our Story</a>
         <a href="/engagement">The Engagement</a>
         <a href="/wedding">The Wedding</a>
-        <a href="mailto:test@test.com">Contact Us</a>
+        <a href="mailto:austin.and.sally.2021@gmail.com">Contact Us</a>
       </div>
     </div>
   );
