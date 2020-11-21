@@ -24,4 +24,9 @@
   .content {
     flex-direction: column;
   }
+
+  .panel .panel-content {
+    max-height: 21rem;
+    overflow-y: scroll;
+  }
 }

@@ -17,6 +17,7 @@ export default function Home() {
     <div className={`content ${styles["content"]}`}>
       <div className={`${styles["begin"]} panel`}>
         <h2>Our Story</h2>
+        <div class="panel-content">
         <p>
           We first met at our church on a fellowship night and quickly became
           friends. Several dates later, after about 6 months of getting to know
@@ -42,6 +43,8 @@ export default function Home() {
           On July 18th, 2020, Sally said "Yes"! We are now in the process of
           planning for our wedding!
         </p>
+        </div>
+        
       </div>
       <br />
       <div className={`${styles["end"]} panel ${styles["carousel-panel"]}`}>
