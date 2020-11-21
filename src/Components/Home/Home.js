@@ -18,33 +18,31 @@ export default function Home() {
       <div className={`${styles["begin"]} panel`}>
         <h2>Our Story</h2>
         <div class="panel-content">
-        <p>
-          We first met at our church on a fellowship night and quickly became
-          friends. Several dates later, after about 6 months of getting to know
-          each other, we went on a movie date to watch a very unromantic{" "}
-          <i>Deep Water Horizon</i>. Austin asked Sally to be his girlfriend
-          after the movie, and after a few hours of deliberation over yummy
-          noodles while Austin poured sweat, she agreed! Throughout the
-          following years, we grew to know each other better and better. We grew
-          as individuals and we grew as a couple.
-          <br />
-          <br />
-          3 years later...
-          <br />
-          <br />
-          Austin began planning for the marriage proposal. He had everything
-          planned out and was about to put in a deposit when the coronavirus
-          pandemic hit and the entire state shut down. Plans had to be halted
-          temporarily and changed. It took a few more months for Austin to
-          finalize the details for the modified proposal and set the plan into
-          motion.
-          <br />
-          <br />
-          On July 18th, 2020, Sally said "Yes"! We are now in the process of
-          planning for our wedding!
-        </p>
+          <p>
+            We first met at our church on a fellowship night and quickly became
+            friends. Six months and several dates later, we went on a movie date
+            to watch a very unromantic <i>Deep Water Horizon</i>. Austin asked
+            Sally to be his girlfriend after the movie, and after a few hours of
+            deliberation over yummy noodles while Austin poured sweat, she
+            agreed! Throughout the following years, we grew to know each other
+            better and better. We grew as individuals and we grew as a couple.
+            <br />
+            <br />
+            3 years later...
+            <br />
+            <br />
+            Austin began planning for the marriage proposal. He had everything
+            planned out and was about to put in a deposit when the coronavirus
+            pandemic hit and the entire state shut down. Plans had to be halted
+            temporarily and changed. It took a few more months for Austin to
+            finalize the details for the modified proposal and set the plan into
+            motion.
+            <br />
+            <br />
+            On July 18th, 2020, Sally said "Yes"! We are now in the process of
+            planning for our wedding!
+          </p>
         </div>
-        
       </div>
       <br />
       <div className={`${styles["end"]} panel ${styles["carousel-panel"]}`}>
