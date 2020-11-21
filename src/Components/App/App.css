@@ -20,6 +20,10 @@
   padding: 1rem;
 }
 
+.opaque {
+  opacity: 1;
+}
+
 @media only screen and (max-width: 768px) {
   .content {
     flex-direction: column;
@@ -28,5 +32,9 @@
   .panel .panel-content {
     max-height: 21rem;
     overflow-y: scroll;
+  }
+
+  .mobile-opaque {
+    opacity: 1;
   }
 }
