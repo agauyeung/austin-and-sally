@@ -46,7 +46,7 @@ export default function Home() {
       </div>
       <br />
       <div className={`${styles["end"]} panel ${styles["carousel-panel"]}`}>
-        <ui5-carousel cyclic>
+        <ui5-carousel cyclic arrows-placement="Navigation" items-per-page-l="3" items-per-page-m="2">
           {images.map((img) => (
             <img src={img} className={styles["img"]} alt="Austin and Sally" />
           ))}
