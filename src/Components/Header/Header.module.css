@@ -39,7 +39,7 @@
   }
 
   .link-wrapper a:not(:last-child) {
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
     margin-right: 0;
   }
 }
