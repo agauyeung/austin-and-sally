@@ -7,14 +7,8 @@
   width: 60%;
 }
 
-.carousel-panel {
-  background-color: rgba(255, 255, 255, 0.6);
-  opacity: 1;
-}
-
 .img {
   max-height: 20rem;
-  opacity: 1;
 }
 
 .photo-credit {
@@ -41,9 +35,5 @@
   .begin {
     margin-right: 0;
     margin-bottom: 1rem;
-  }
-
-  .carousel-panel {
-    background-color: white;
   }
 }

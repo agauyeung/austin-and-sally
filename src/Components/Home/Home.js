@@ -15,7 +15,7 @@ const images = [img8, img1, img2, img3, img4, img5, img6, img7];
 export default function Home() {
   return (
     <div className={`content ${styles["content"]}`}>
-      <div className={`${styles["begin"]} panel mobile-opaque`}>
+      <div className={`${styles["begin"]} panel`}>
         <h2>Our Story</h2>
         <div class="panel-content">
           <p>
@@ -45,7 +45,7 @@ export default function Home() {
         </div>
       </div>
       <br />
-      <div className={`${styles["end"]} panel ${styles["carousel-panel"]}`}>
+      <div className={`${styles["end"]} panel`}>
         <ui5-carousel cyclic arrows-placement="Navigation" items-per-page-l="3" items-per-page-m="2">
           {images.map((img) => (
             <img src={img} className={styles["img"]} alt="Austin and Sally" />

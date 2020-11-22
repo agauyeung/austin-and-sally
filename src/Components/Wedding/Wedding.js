@@ -6,7 +6,7 @@ import * as bridges from "../../images/bridges_golf_club.jpg";
 export default function Wedding() {
   return (
     <div className="content">
-      <div className={`panel opaque ${styles["panel"]}`}>
+      <div className={`panel ${styles["panel"]}`}>
         <h2>When and Where</h2>
         <img className={styles["bridges"]} src={bridges} alt="drawing"/>
         <p>
