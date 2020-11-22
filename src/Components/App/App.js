@@ -3,15 +3,15 @@ import Engagement from "../Engagement";
 import Header from "../Header";
 import Home from "../Home";
 import React from "react";
-import { Route, Switch, useHistory } from "react-router-dom";
+import { Route, Switch } from "react-router-dom";
 import Wedding from "../Wedding";
 
 export default function App() {
-  const history = useHistory();
+  /* const history = useHistory();
   const goHome = () => {
     history.push("/");
     history.goForward();
-  };
+  }; */
 
   return (
     <div className="App">

@@ -31,6 +31,7 @@ export default function Engagement() {
         className={styles["iframe"]}
         src="https://crystalmak.myportfolio.com/austin-sally-proposal"
         frameBorder="0"
+        title="Engagement photos"
       />
     </>
   );

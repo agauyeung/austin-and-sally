@@ -17,7 +17,7 @@ export default function Home() {
     <div className={`content ${styles["content"]}`}>
       <div className={`${styles["begin"]} panel`}>
         <h2>Our Story</h2>
-        <div class="panel-content">
+        <div className="panel-content">
           <p>
             We first met at our church on a fellowship night and quickly became
             friends. Six months and several dates later, we went on a movie date
@@ -47,8 +47,8 @@ export default function Home() {
       <br />
       <div className={`${styles["end"]} panel`}>
         <ui5-carousel cyclic arrows-placement="Navigation" items-per-page-l="3" items-per-page-m="2">
-          {images.map((img) => (
-            <img src={img} className={styles["img"]} alt="Austin and Sally" />
+          {images.map((img, index) => (
+            <img src={img} key={index} className={styles["img"]} alt="Austin and Sally" />
           ))}
         </ui5-carousel>
         <div className={styles["photo-credit"]}>
