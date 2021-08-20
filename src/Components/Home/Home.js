@@ -1,14 +1,14 @@
-import "@ui5/webcomponents/dist/Carousel";
+import { Carousel } from "@ui5/webcomponents-react";
 import React from "react";
 import styles from "./Home.module.css";
-import * as img1 from "../../images/image_1.jpeg";
-import * as img2 from "../../images/image_2.jpeg";
-import * as img3 from "../../images/image_3.jpeg";
-import * as img4 from "../../images/image_4.jpeg";
-import * as img5 from "../../images/image_5.jpeg";
-import * as img6 from "../../images/image_6.jpeg";
-import * as img7 from "../../images/image_7.jpeg";
-import * as img8 from "../../images/image_8.jpeg";
+import * as img1 from "/public/images/image_1.jpeg";
+import * as img2 from "/public/images/image_2.jpeg";
+import * as img3 from "/public/images/image_3.jpeg";
+import * as img4 from "/public/images/image_4.jpeg";
+import * as img5 from "/public/images/image_5.jpeg";
+import * as img6 from "/public/images/image_6.jpeg";
+import * as img7 from "/public/images/image_7.jpeg";
+import * as img8 from "/public/images/image_8.jpeg";
 
 const images = [img8, img1, img2, img3, img4, img5, img6, img7];
 
@@ -46,11 +46,21 @@ export default function Home() {
       </div>
       <br />
       <div className={`${styles["end"]} panel`}>
-        <ui5-carousel cyclic arrows-placement="Navigation" items-per-page-l="3" items-per-page-m="2">
-          {images.map((img, index) => (
-            <img src={img} key={index} className={styles["img"]} alt="Austin and Sally" />
+        <Carousel
+          cyclic
+          arrows-placement="Navigation"
+          itemsPerPageL="3"
+          itemsPerPageM="2"
+        >
+          {images.map(({ default: { src } }, index) => (
+            <img
+              src={src}
+              key={index}
+              className={styles["img"]}
+              alt="Austin and Sally"
+            />
           ))}
-        </ui5-carousel>
+        </Carousel>
         <div className={styles["photo-credit"]}>
           Photo Credit:&nbsp;
           <a href="https://crystalmak.myportfolio.com">Crystal Mak</a>
