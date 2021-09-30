@@ -18,6 +18,11 @@ const linksDef = [
     href: "/wedding",
     text: "The Wedding",
   },
+  {
+    id: "rsvp",
+    href: "/rsvp",
+    text: "RSVP"
+  }
 ];
 
 export function HeaderLink(props) {
