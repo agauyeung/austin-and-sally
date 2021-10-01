@@ -15,7 +15,7 @@ const images = [img8, img1, img2, img3, img4, img5, img6, img7];
 export default function Home() {
   return (
     <div className={`content ${styles["content"]}`}>
-      <div className={`${styles["begin"]} panel`}>
+      <div className="begin panel">
         <h2>Our Story</h2>
         <div className="panel-content">
           <p>
@@ -45,7 +45,7 @@ export default function Home() {
         </div>
       </div>
       <br />
-      <div className={`${styles["end"]} panel`}>
+      <div className="end panel">
         <Carousel
           cyclic
           arrows-placement="Navigation"

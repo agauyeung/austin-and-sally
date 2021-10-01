@@ -8,11 +8,11 @@ const linksDef = [
     href: "/",
     text: "Our Story",
   },
-  {
+  /* {
     id: "engagement",
     href: "/engagement",
     text: "The Engagement",
-  },
+  }, */
   {
     id: "wedding",
     href: "/wedding",

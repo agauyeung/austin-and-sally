@@ -24,6 +24,7 @@
     "build": "next build && next export -o build/",
     "start": "next start",
     "lint": "next lint",
+    "local": "npm run build && npm start",
     "deploy": "firebase deploy"
   },
   "eslintConfig": {

@@ -1,19 +1,11 @@
-.panel {
-  align-items: center;
-  width: 50%;
+/* .when {
+  font-size: 3rem;
+} */
+
+.mapLink {
+  display: contents;
 }
 
-.drawing {
-  height: 232px;
-  width: 300px;
-}
-
-.bridges {
-  height: 232px;
-}
-
-@media only screen and (max-width: 768px) {
-  .panel {
-    width: auto;
-  }
+.invite {
+  border-radius: 2.1rem;
 }
