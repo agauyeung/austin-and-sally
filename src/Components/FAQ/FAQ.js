@@ -120,7 +120,7 @@ export default function FAQ() {
   return (
     <>
       <h2>Frequently Asked Questions</h2>
-      <p>{renderQA(faqs)}</p>
+      <p className="panel-content">{renderQA(faqs)}</p>
     </>
   );
 }
