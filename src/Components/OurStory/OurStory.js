@@ -1,6 +1,6 @@
-import { Carousel } from "@ui5/webcomponents-react";
 import React from "react";
-import styles from "./Home.module.css";
+import ImagePreviewStrip from "../ImagePreviewStrip/ImagePreviewStrip";
+import styles from "./OurStory.module.css";
 import * as img1 from "/public/images/image_1.jpeg";
 import * as img2 from "/public/images/image_2.jpeg";
 import * as img3 from "/public/images/image_3.jpeg";
@@ -10,12 +10,13 @@ import * as img6 from "/public/images/image_6.jpeg";
 import * as img7 from "/public/images/image_7.jpeg";
 import * as img8 from "/public/images/image_8.jpeg";
 
-const images = [img8, img1, img2, img3, img4, img5, img6, img7];
+const images = [img8, img1, img2, img3];
+const images2 = [img4, img5, img6, img7];
 
-export default function Home() {
+export default function OurStory() {
   return (
     <div className={`content ${styles["content"]}`}>
-      <div className="begin panel">
+      <div className="panel">
         <h2>Our Story</h2>
         <div className="panel-content">
           <p>
@@ -45,27 +46,9 @@ export default function Home() {
         </div>
       </div>
       <br />
-      <div className="end panel">
-        <Carousel
-          cyclic
-          arrows-placement="Navigation"
-          itemsPerPageL="3"
-          itemsPerPageM="2"
-        >
-          {images.map(({ default: { src } }, index) => (
-            <img
-              src={src}
-              key={index}
-              className={styles["img"]}
-              alt="Austin and Sally"
-            />
-          ))}
-        </Carousel>
-        <div className={styles["photo-credit"]}>
-          Photo Credit:&nbsp;
-          <a href="https://crystalmak.myportfolio.com">Crystal Mak</a>
-        </div>
-      </div>
+      <ImagePreviewStrip headerText="Engagement Photoshoot" images={images} />
+      <br />
+      <ImagePreviewStrip headerText="Pre-Wedding Photoshoot" images={images2} />
     </div>
   );
 }

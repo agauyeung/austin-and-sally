@@ -1,4 +1,4 @@
 import React from "react";
-import Home from "/src/Components/Home";
-const Page = () => <Home />;
+import Wedding from "/src/Components/Wedding";
+const Page = () => <Wedding />;
 export default Page;

@@ -4,24 +4,14 @@ import styles from "./Header.module.css";
 
 const linksDef = [
   {
-    id: "story",
-    href: "/",
-    text: "Our Story",
-  },
-  /* {
-    id: "engagement",
-    href: "/engagement",
-    text: "The Engagement",
-  }, */
-  {
     id: "wedding",
     href: "/wedding",
     text: "The Wedding",
   },
   {
-    id: "rsvp",
-    href: "/rsvp",
-    text: "RSVP"
+    id: "story",
+    href: "/story",
+    text: "Our Story",
   }
 ];
 
