@@ -26,6 +26,7 @@
 
 .see-all-container {
   align-items: center;
+  background-color: rgba(161, 161, 161, 0.3);
   display: flex;
   justify-content: center;
 }
