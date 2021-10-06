@@ -19,14 +19,22 @@
   margin-right: 2rem;
 }
 
-.mail-icon-link {
+.icon-link-wrapper:not(:last-child) {
+  margin-right: 0.5rem;
+}
+
+.icon-link {
   text-decoration: none;
+}
+
+.mail-icon {
+  margin-right: 0.5rem;
 }
 
 @media only screen and (max-width: 768px) {
   .link-wrapper {
     flex-direction: column;
-    margin-right: 1rem;
+    margin-right: 0;
   }
 
   .link-wrapper a {

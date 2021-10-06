@@ -50,11 +50,20 @@ export default function Header({ id }) {
             />
           ))}
         </div>
+        <span className={`material-icons-outlined ${styles["icon-link-wrapper"]}`}>
+          <a
+            className={styles["icon-link"]}
+            href="https://goo.gl/maps/1Thmcx4MnthezoiK8"
+            aria-label="Navigate"
+          >
+            place
+          </a>
+        </span>
         <span className="material-icons-outlined">
           <a
-            className={styles["mail-icon-link"]}
+            className={styles["icon-link"]}
             href="mailto:austin.and.sally.2021@gmail.com"
-            ariaLabel="Contact Us"
+            aria-label="Contact Us"
           >
             email
           </a>

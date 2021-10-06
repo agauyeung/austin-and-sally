@@ -7,13 +7,10 @@ export default function Wedding() {
   return (
     <div className="content">
       <div className={`panel ${styles.container}`}>
-        <h2>The Wedding</h2>
-        <a
-          href="https://goo.gl/maps/1Thmcx4MnthezoiK8"
-          className={styles["map-link"]}
-        >
+        <h2>Wedding Details &amp; RSVP</h2>
+        <div className={styles["invite-wrapper"]}>
           <img src={invite.default.src} className={styles.invite} />
-        </a>
+        </div>
         <a className={styles["rsvp-button"]} href="/rsvp">
           RSVP Now
         </a>
