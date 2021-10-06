@@ -1,5 +1,9 @@
-.imageContainer {
+.image-container {
   max-height: 20rem;
+}
+
+.image-container:not(:last-child) {
+  margin-right: 0.5rem;
 }
 
 .img {
@@ -7,9 +11,8 @@
 }
 
 .photo-credit {
-  background-color: #fff;
   display: flex;
-  font-size: 0.5rem;
+  font-size: 0.75rem;
   justify-content: flex-end;
   padding-left: 0.25rem;
   padding-right: 0.25rem;
@@ -17,24 +20,23 @@
   text-align: right;
 }
 
-.imagePreviewStrip {
+.image-preview-strip {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
 }
 
-.seeAllContainer {
+.see-all-container {
   align-items: center;
   display: flex;
   justify-content: center;
 }
 
 @media only screen and (max-width: 768px) {
-  .imagePreviewStrip {
+  .image-preview-strip {
     display: flex;
     flex-direction: column;
   }
 
-  .imageContainer {
+  .image-container {
     max-height: 100%;
   }
 
@@ -42,7 +44,7 @@
     width: 100%;
   }
   
-  .seeAllContainer {
+  .see-all-container {
     height: 15rem;
   }
 }

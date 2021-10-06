@@ -1,17 +1,16 @@
 import React from "react";
 import ImagePreviewStrip from "../ImagePreviewStrip/ImagePreviewStrip";
 import styles from "./OurStory.module.css";
-import * as img1 from "/public/images/image_1.jpeg";
-import * as img2 from "/public/images/image_2.jpeg";
-import * as img3 from "/public/images/image_3.jpeg";
-import * as img4 from "/public/images/image_4.jpeg";
-import * as img5 from "/public/images/image_5.jpeg";
-import * as img6 from "/public/images/image_6.jpeg";
-import * as img7 from "/public/images/image_7.jpeg";
-import * as img8 from "/public/images/image_8.jpeg";
+import * as eng1 from "/public/images/eng1.jpeg";
+import * as eng2 from "/public/images/eng2.jpeg";
+import * as eng3 from "/public/images/eng3.jpeg";
+import * as eng4 from "/public/images/eng4.jpeg";
+import * as pw1 from "/public/images/pw1.jpg";
+import * as pw2 from "/public/images/pw2.jpg";
+import * as pw3 from "/public/images/pw3.jpg";
 
-const images = [img8, img1, img2, img3];
-const images2 = [img4, img5, img6, img7];
+const engagementImages = [eng1, eng2, eng3, eng4];
+const preWeddingImages = [pw1, pw2, pw3];
 
 export default function OurStory() {
   return (
@@ -46,9 +45,25 @@ export default function OurStory() {
         </div>
       </div>
       <br />
-      <ImagePreviewStrip headerText="Engagement Photoshoot" images={images} />
+      <div className="panel">
+        <ImagePreviewStrip
+          headerText="Engagement Photoshoot"
+          images={engagementImages}
+          seeAllLink="https://photos.app.goo.gl/QSgNnxF53hyLCa2U8"
+          photographer="Crystal Mak"
+          photographerWebsite="https://www.instagram.com/crystalightscape/"
+        />
+      </div>
       <br />
-      <ImagePreviewStrip headerText="Pre-Wedding Photoshoot" images={images2} />
+      <div className="panel">
+        <ImagePreviewStrip
+          headerText="Pre-Wedding Photoshoot"
+          images={preWeddingImages}
+          seeAllLink="https://photos.app.goo.gl/P5aMprTZ5jVQnr666"
+          photographer="Chris Chu"
+          photographerWebsite="https://www.chrischuphoto.com/"
+        />
+      </div>
     </div>
   );
 }

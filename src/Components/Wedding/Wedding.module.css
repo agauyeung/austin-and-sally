@@ -3,15 +3,17 @@
   margin: auto;
 }
 
-.mapLink {
-  display: contents;
+.map-link {
+  display: block;
+  margin-top: 1rem;
 }
 
 .invite {
   border-radius: 2.1rem;
+  width: 100%;
 }
 
-.rsvpButton {
+.rsvp-button {
   position: absolute;
   top: 88%;
   left: 50%;
@@ -26,7 +28,7 @@
   text-decoration: none;
 }
 
-.rsvpButton:hover {
+.rsvp-button:hover {
   opacity: 0.7;
 }
 
@@ -35,7 +37,7 @@
     margin: 0;
   }
   
-  .rsvpButton {
+  .rsvp-button {
     font-size: 1rem;
   }
 }

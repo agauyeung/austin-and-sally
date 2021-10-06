@@ -46,6 +46,19 @@
   width: 60%;
 }
 
+.link-wrapper {
+  display: flex;
+}
+
+.link-wrapper a {
+  padding: 0.25rem 0;
+  text-decoration: none;
+}
+
+.link-wrapper a:not(:hover) {
+  border-bottom: 1px solid;
+}
+
 @media only screen and (max-width: 768px) {
   .content {
     flex-direction: column;

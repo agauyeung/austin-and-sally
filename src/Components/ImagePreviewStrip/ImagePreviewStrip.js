@@ -1,13 +1,22 @@
 import React from "react";
 import styles from "./ImagePreviewStrip.module.css";
 
-export default function ImagePreviewStrip({ headerText, images }) {
+export default function ImagePreviewStrip({
+  headerText,
+  images,
+  seeAllLink,
+  photographer,
+  photographerWebsite
+}) {
   return (
-    <div className="panel">
+    <>
       <h2>{headerText}</h2>
-      <div className={styles.imagePreviewStrip}>
+      <div
+        className={styles["image-preview-strip"]}
+        style={{ gridTemplateColumns: `repeat(${images.length + 1}, 1fr)` }}
+      >
         {images.map(({ default: { src } }, index) => (
-          <div className={styles.imageContainer}>
+          <div className={styles["image-container"]}>
             <img
               src={src}
               key={index}
@@ -16,15 +25,15 @@ export default function ImagePreviewStrip({ headerText, images }) {
             />
           </div>
         ))}
-        <div className={styles.seeAllContainer}>
-          <a className={styles.seeAll}>See All</a>
+        <div className={`link-wrapper ${styles["see-all-container"]}`}>
+          <a href={seeAllLink}>See All</a>
         </div>
       </div>
 
       <div className={styles["photo-credit"]}>
         Photo Credit:&nbsp;
-        <a href="https://crystalmak.myportfolio.com">Crystal Mak</a>
+        <a href={photographerWebsite}>{photographer}</a>
       </div>
-    </div>
+    </>
   );
 }

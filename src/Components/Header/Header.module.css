@@ -7,27 +7,26 @@
   background-color: var(--main-bg-color);
 }
 
-.link-wrapper {
+.header-links-wrapper {
   display: flex;
 }
 
-.link-wrapper a {
-  padding: 0.25rem 0;
-  text-decoration: none;
-}
-
-.link-wrapper a:not(:hover) {
-  border-bottom: 1px solid;
+.link-wrapper {
+  margin-right: 2rem;
 }
 
 .link-wrapper a:not(:last-child) {
   margin-right: 2rem;
 }
 
+.mail-icon-link {
+  text-decoration: none;
+}
 
 @media only screen and (max-width: 768px) {
   .link-wrapper {
     flex-direction: column;
+    margin-right: 1rem;
   }
 
   .link-wrapper a {
