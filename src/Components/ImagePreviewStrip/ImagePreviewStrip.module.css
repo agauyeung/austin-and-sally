@@ -31,6 +31,10 @@
   justify-content: center;
 }
 
+.see-all-container:hover {
+  background-color: rgba(161, 161, 161, 0.5);
+}
+
 @media only screen and (max-width: 768px) {
   .image-preview-strip {
     display: flex;
