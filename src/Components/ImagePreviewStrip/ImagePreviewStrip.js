@@ -25,9 +25,7 @@ export default function ImagePreviewStrip({
             />
           </div>
         ))}
-        <div className={`link-wrapper ${styles["see-all-container"]}`}>
-          <a href={seeAllLink}>See All</a>
-        </div>
+        <a href={seeAllLink} className={styles["see-all-link"]}>See All</a>
       </div>
 
       <div className={styles["photo-credit"]}>

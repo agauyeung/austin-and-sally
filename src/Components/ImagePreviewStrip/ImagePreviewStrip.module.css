@@ -24,14 +24,15 @@
   display: grid;
 }
 
-.see-all-container {
+.see-all-link {
   align-items: center;
   background-color: rgba(161, 161, 161, 0.3);
   display: flex;
   justify-content: center;
+  text-decoration: none;
 }
 
-.see-all-container:hover {
+.see-all-link:hover {
   background-color: rgba(161, 161, 161, 0.5);
 }
 

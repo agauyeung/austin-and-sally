@@ -1,15 +1,14 @@
 import React from "react";
 import ImagePreviewStrip from "../ImagePreviewStrip/ImagePreviewStrip";
 import styles from "./OurStory.module.css";
-import * as eng1 from "/public/images/eng1.jpeg";
-import * as eng2 from "/public/images/eng2.jpeg";
+import * as eng1 from "/public/images/eng1.jpg";
+import * as eng2 from "/public/images/eng2.jpg";
 import * as eng3 from "/public/images/eng3.jpeg";
-import * as eng4 from "/public/images/eng4.jpeg";
 import * as pw1 from "/public/images/pw1.jpg";
 import * as pw2 from "/public/images/pw2.jpg";
 import * as pw3 from "/public/images/pw3.jpg";
 
-const engagementImages = [eng1, eng2, eng3, eng4];
+const engagementImages = [eng1, eng2, eng3];
 const preWeddingImages = [pw1, pw2, pw3];
 
 export default function OurStory() {
