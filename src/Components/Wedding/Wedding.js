@@ -16,7 +16,7 @@ export default function Wedding() {
         </a>
       </div>
       <br />
-      <div className="panel">
+      <div className={`panel ${styles.faqContainer}`}>
         <FAQ />
       </div>
     </div>
