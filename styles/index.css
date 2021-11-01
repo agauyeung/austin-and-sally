@@ -63,8 +63,21 @@ a {
   color: #000;
 }
 
+.button,
 button {
   font-family: "Open Sans";
+  background-color: var(--main-bg-color);
+  color: black;
+  font-size: 2rem;
+  padding: 0.5rem 2rem;
+  border-radius: 5px;
+  box-shadow: var(--box-shadow);
+  text-decoration: none;
+}
+
+.button:hover,
+button:hover {
+  opacity: 0.7;
 }
 
 h1,

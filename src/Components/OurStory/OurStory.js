@@ -46,7 +46,7 @@ export default function OurStory() {
       <br />
       <div className="panel">
         <ImagePreviewStrip
-          headerText="Engagement Photoshoot"
+          headerText="Engagement"
           images={engagementImages}
           seeAllLink="https://photos.app.goo.gl/QSgNnxF53hyLCa2U8"
           photographer="Crystal Mak"

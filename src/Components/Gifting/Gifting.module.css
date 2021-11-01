@@ -1,0 +1,40 @@
+.panel {
+  align-items: center;
+  width: 50%;
+}
+
+.gift-wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.gift-button {
+  background-repeat: no-repeat;
+  background-color: white;
+  background-position: center;
+  display: block;
+  height: 12px;
+}
+
+.paypal {
+  background-image: url("../../../public/images/paypal_logo.png");
+  width: 32px;
+}
+
+.venmo {
+  background-image: url("../../../public/images/venmo_logo.png");
+  width: 14px;
+}
+
+.zelle {
+  background-image: url("../../../public/images/zelle_logo.png");
+  background-color: #eaeaea;
+  width: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+  .panel {
+    width: auto;
+  }
+}
