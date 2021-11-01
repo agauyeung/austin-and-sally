@@ -25,15 +25,11 @@
 }
 
 .icon-link-wrapper:not(:last-child) {
-  margin-right: 0.5rem;
+  margin-right: 1rem;
 }
 
 .icon-link {
   text-decoration: none;
-}
-
-.mail-icon {
-  margin-right: 0.5rem;
 }
 
 .mobile-nav {

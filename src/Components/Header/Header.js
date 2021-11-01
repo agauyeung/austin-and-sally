@@ -67,14 +67,15 @@ export default function Header({ id }) {
           <span
             className={`material-icons-outlined ${styles["icon-link-wrapper"]}`}
           >
-            <a
-              className={styles["icon-link"]}
-              href="https://goo.gl/maps/1Thmcx4MnthezoiK8"
-              aria-label="Navigate"
-              title="Navigate"
-            >
-              place
-            </a>
+            <Link href="/gifting">
+              <a
+                className={styles["icon-link"]}
+                aria-label="Gifting"
+                title="Gifting"
+              >
+                redeem
+              </a>
+            </Link>
           </span>
           <span
             className={`material-icons-outlined ${styles["icon-link-wrapper"]}`}
@@ -89,15 +90,14 @@ export default function Header({ id }) {
             </a>
           </span>
           <span className={`material-icons-outlined`}>
-            <Link href="/gifting">
-              <a
-                className={styles["icon-link"]}
-                aria-label="Gifting"
-                title="Gifting"
-              >
-                redeem
-              </a>
-            </Link>
+            <a
+              className={styles["icon-link"]}
+              href="https://goo.gl/maps/1Thmcx4MnthezoiK8"
+              aria-label="Navigate"
+              title="Navigate"
+            >
+              place
+            </a>
           </span>
         </div>
       </div>

@@ -1,4 +1,4 @@
-import faqs from "./FAQ.json";
+import faqs from "./FAQText";
 import React from "react";
 import styles from "./FAQ.module.css";
 

@@ -10,10 +10,9 @@ export default function Gifting() {
         <div className="panel-content">
           <p>
             Your presence at the wedding is more important to us than presents!
+            <br />
             However, if you would like to give a gift, cash gifts would be
             greatly appreciated towards our home and honeymoon fund.
-            Alternatively, if you would like to contribute towards a physical
-            gift, we have a gift registry at ---to-be-determined--.
             <br />
             <br />
             For your convenience, we have provided the following links below:
@@ -35,6 +34,14 @@ export default function Gifting() {
                 ></a>
               </Link>
             </div>
+            <br />
+            <br />
+            Alternatively, if you would like to contribute towards a physical
+            gift, we have a wedding registry at{" "}
+            <a href="https://www.zola.com/registry/sallyandaustin2022">
+              https://www.zola.com/registry/sallyandaustin2022
+            </a>
+            .
           </p>
         </div>
       </div>

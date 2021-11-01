@@ -46,11 +46,15 @@
     max-height: 100%;
   }
 
+  .image-container:not(:last-child) {
+    margin-right: 0;
+  }
+
   .img {
     width: 100%;
   }
   
-  .see-all-container {
+  .see-all-link {
     height: 15rem;
   }
 }
