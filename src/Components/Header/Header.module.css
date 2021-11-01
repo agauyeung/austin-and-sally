@@ -49,5 +49,6 @@
     display: flex;
     justify-content: space-around;
     border-color: var(--border-color);
+    font-size: 1.25rem;
   }
 }

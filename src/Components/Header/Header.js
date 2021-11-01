@@ -6,7 +6,7 @@ const linksDef = [
   {
     id: "wedding",
     href: "/wedding",
-    text: "Wedding"
+    text: "Wedding & RSVP"
   },
   {
     id: "story",

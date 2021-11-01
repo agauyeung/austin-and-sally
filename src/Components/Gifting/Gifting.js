@@ -12,8 +12,8 @@ export default function Gifting() {
             Your presence at the wedding is more important to us than presents!
             However, if you would like to give a gift, cash gifts would be
             greatly appreciated towards our home and honeymoon fund.
-            Alternatively, if you would like to contribute towards a gift, we
-            have a gift registry at ---to-be-determined--.
+            Alternatively, if you would like to contribute towards a physical
+            gift, we have a gift registry at ---to-be-determined--.
             <br />
             <br />
             For your convenience, we have provided the following links below:
@@ -25,10 +25,14 @@ export default function Gifting() {
                 href="https://www.paypal.me/austinandsally"
               ></a>
               <Link href="/venmo">
-                <a className={`button ${styles["gift-button"]} ${styles.venmo}`}></a>
+                <a
+                  className={`button ${styles["gift-button"]} ${styles.venmo}`}
+                ></a>
               </Link>
               <Link href="/zelle">
-                <a className={`button ${styles["gift-button"]} ${styles.zelle}`}></a>
+                <a
+                  className={`button ${styles["gift-button"]} ${styles.zelle}`}
+                ></a>
               </Link>
             </div>
           </p>
