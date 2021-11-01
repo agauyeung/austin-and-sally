@@ -6,12 +6,14 @@ const linksDef = [
   {
     id: "wedding",
     href: "/wedding",
-    text: "Wedding & RSVP"
+    text: "Wedding",
+    className: styles.wedding
   },
   {
     id: "story",
     href: "/story",
-    text: "Our Story"
+    text: "Our Story",
+    className: styles.story
   }
 ];
 
@@ -36,13 +38,14 @@ function HeaderLinksWrapper() {
 
   return (
     <>
-      {linksDef.map(({ href, text, id }) => (
+      {linksDef.map(({ href, text, id, className }) => (
         <HeaderLink
           key={id}
           href={href}
           text={text}
           data-id={id}
           onClick={onClick}
+          className={className}
           data-selected={id === selectedLink ? true : undefined}
         />
       ))}

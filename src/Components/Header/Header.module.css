@@ -50,5 +50,29 @@
     justify-content: space-around;
     border-color: var(--border-color);
     font-size: 1.25rem;
+    padding: 0;
+  }
+
+  .mobile-nav a {
+    text-decoration: none;
+    border-top: 2px solid transparent;
+    border-bottom: 2px solid transparent;
+  }
+
+  .mobile-nav a[data-selected] {
+    border-bottom-color: var(--border-color);
+  }
+
+  .mobile-nav a::before {
+    font-family: "Material Icons Outlined";
+    padding-right: 0.5rem;
+  }
+
+  .wedding::before {
+    content: "\ea65";
+  }
+
+  .story::before {
+    content: "\e666";
   }
 }

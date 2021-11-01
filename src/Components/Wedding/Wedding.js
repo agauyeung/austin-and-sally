@@ -1,5 +1,6 @@
 import React from "react";
 import FAQ from "../FAQ/FAQ";
+import Link from "next/link";
 import styles from "./Wedding.module.css";
 import * as invite from "/public/images/wedding_invite.jpg";
 
@@ -11,9 +12,9 @@ export default function Wedding() {
         <div className={styles["invite-wrapper"]}>
           <img src={invite.default.src} className={styles.invite} />
         </div>
-        <a className={`${styles["rsvp-button"]} button`} href="/rsvp">
-          RSVP Now
-        </a>
+        <Link href="/rsvp">
+          <a className={`${styles["rsvp-button"]} button`}>RSVP Now</a>
+        </Link>
       </div>
       <br />
       <div className={`panel ${styles.faqContainer}`}>
