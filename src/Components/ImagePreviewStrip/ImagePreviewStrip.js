@@ -10,13 +10,13 @@ export default function ImagePreviewStrip({
 }) {
   return (
     <>
-      <h2>{headerText}</h2>
+      <h2 className={`${styles.header} with-icon`}>{headerText}</h2>
       <div
         className={styles["image-preview-strip"]}
         style={{ gridTemplateColumns: `repeat(${images.length + 1}, 1fr)` }}
       >
         {images.map(({ default: { src } }, index) => (
-          <div className={styles["image-container"]}>
+          <div className={styles["image-container"]} key={index}>
             <img
               src={src}
               key={index}

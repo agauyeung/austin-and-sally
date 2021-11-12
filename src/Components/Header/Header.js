@@ -7,13 +7,13 @@ const linksDef = [
     id: "wedding",
     href: "/wedding",
     text: "Wedding",
-    className: styles.wedding
+    className: `${styles.wedding} with-icon`
   },
   {
     id: "story",
     href: "/story",
     text: "Our Story",
-    className: styles.story
+    className: `${styles.story} with-icon`
   }
 ];
 

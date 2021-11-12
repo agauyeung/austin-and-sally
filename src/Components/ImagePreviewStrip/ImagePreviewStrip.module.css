@@ -1,3 +1,7 @@
+.header::before {
+  content: "\e412";
+}
+
 .image-container {
   max-height: 20rem;
 }

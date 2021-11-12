@@ -15,7 +15,7 @@ export default function OurStory() {
   return (
     <div className={`content ${styles["content"]}`}>
       <div className="panel">
-        <h2>Our Story</h2>
+        <h2 className={`${styles["our-story-header"]} with-icon`}>Our Story</h2>
         <div className="panel-content">
           <p>
             We first met at our church on a fellowship night and quickly became

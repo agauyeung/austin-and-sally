@@ -8,7 +8,11 @@ export default function Wedding() {
   return (
     <div className="content">
       <div className={`panel ${styles.container}`}>
-        <h2 className={styles["desktop-header"]}>Wedding Details &amp; RSVP</h2>
+        <h2
+          className={`${styles["desktop-header"]} ${styles["wedding-header"]} with-icon`}
+        >
+          Wedding Details &amp; RSVP
+        </h2>
         <div className={styles["invite-wrapper"]}>
           <img src={invite.default.src} className={styles.invite} />
         </div>

@@ -17,7 +17,7 @@ export default function FAQ() {
 
   return (
     <>
-      <h2>Frequently Asked Questions</h2>
+      <h2 className={`${styles["faq-header"]} with-icon`}>Frequently Asked Questions</h2>
       <p className="panel-content">{renderQA(faqs)}</p>
     </>
   );
