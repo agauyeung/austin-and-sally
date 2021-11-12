@@ -4,7 +4,6 @@
   "private": true,
   "dependencies": {
     "next": "latest",
-    "postcss": "8.2.15",
     "react": "latest",
     "react-dom": "latest"
   },
