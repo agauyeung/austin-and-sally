@@ -18,7 +18,7 @@
     "start": "next start",
     "lint": "next lint",
     "local": "npm run build && npm start",
-    "deploy": "firebase deploy"
+    "deploy": "npm run build && firebase deploy"
   },
   "eslintConfig": {
     "extends": "next"
