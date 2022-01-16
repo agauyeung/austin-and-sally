@@ -36,6 +36,14 @@
   display: none;
 }
 
+.wedding::before {
+  content: "\ea65";
+}
+
+.story::before {
+  content: "\e666";
+}
+
 @media only screen and (max-width: 768px) {
   .desktop-nav {
     display: none;
@@ -57,18 +65,5 @@
 
   .mobile-nav a[data-selected] {
     border-bottom-color: var(--border-color);
-  }
-
-  .mobile-nav a::before {
-    font-family: "Material Icons Outlined";
-    padding-right: 0.5rem;
-  }
-
-  .wedding::before {
-    content: "\ea65";
-  }
-
-  .story::before {
-    content: "\e666";
   }
 }

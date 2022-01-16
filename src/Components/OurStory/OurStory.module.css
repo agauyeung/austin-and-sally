@@ -1,0 +1,41 @@
+.our-story-header::before {
+  content: "\e666";
+}
+
+.profile {
+  border-radius: 50%;
+}
+
+@media only screen and (min-width: 769px) {
+  .columns {
+    display: flex;
+  }
+
+  .story-content:first-child {
+    border-right: 1px solid var(--border-color);
+  }
+
+  .story-content {
+    margin-top: 2rem;
+    padding: 0 2rem;
+    width: 50%;
+  }
+
+  .profile {
+    max-height: 20rem;;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .story-content {
+    padding: 2rem;
+  }
+
+  .story-content:first-child {
+    padding-bottom: 0;
+  }
+
+  .profile {
+    max-height: 6rem;;
+  }
+}

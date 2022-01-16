@@ -2,6 +2,10 @@
   position: relative;
 }
 
+.wedding-header::before {
+  content: "\ea65";
+}
+
 .invite-wrapper {
   display: block;
   margin-top: 1rem;

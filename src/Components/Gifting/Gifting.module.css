@@ -3,6 +3,10 @@
   width: 50%;
 }
 
+.header::before {
+  content: "\e8b1";
+}
+
 .gift-wrapper {
   display: flex;
   justify-content: space-around;

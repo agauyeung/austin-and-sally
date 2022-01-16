@@ -6,7 +6,7 @@ export default function Gifting() {
   return (
     <div className="content">
       <div className={`panel ${styles["panel"]}`}>
-        <h2>Gifting</h2>
+        <h2 className={`${styles.header} with-icon`}>Gifting</h2>
         <div className="panel-content">
           <p>
             Your presence at the wedding is more important to us than presents!
