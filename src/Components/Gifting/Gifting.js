@@ -6,7 +6,7 @@ export default function Gifting() {
   return (
     <div className="content">
       <div className={`panel ${styles["panel"]}`}>
-        <h2 className={`${styles.header} with-icon`}>Gifting</h2>
+        <h2 className={`${styles.header} with-icon`}>Gifting/Registry</h2>
         <div className="panel-content">
           <p>
             Your presence at the wedding is more important to us than presents!
@@ -35,13 +35,14 @@ export default function Gifting() {
               </Link>
             </div>
             <br />
-            <br />
             Alternatively, if you would like to contribute towards a physical
-            gift, we have a wedding registry at{" "}
-            <a href="https://www.zola.com/registry/sallyandaustin2022">
-              https://www.zola.com/registry/sallyandaustin2022
-            </a>
-            .
+            gift,{" "}
+            <b>
+              <a href="https://www.zola.com/registry/sallyandaustin2022">
+                click here
+              </a>{" "}
+              to view our wedding registry.
+            </b>
           </p>
         </div>
       </div>

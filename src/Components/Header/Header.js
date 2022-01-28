@@ -1,20 +1,21 @@
-import React, { useCallback, useState } from "react";
+import React, { useEffect, useState } from "react";
 import Link from "next/link";
 import styles from "./Header.module.css";
+import { useRouter } from "next/router";
 
 const linksDef = [
   {
     id: "wedding",
     href: "/wedding",
     text: "Wedding",
-    className: `${styles.wedding} with-icon`
+    className: `${styles.wedding} with-icon`,
   },
   {
     id: "story",
     href: "/story",
     text: "Our Story",
-    className: `${styles.story} with-icon`
-  }
+    className: `${styles.story} with-icon`,
+  },
 ];
 
 function HeaderLink(props) {
@@ -29,12 +30,11 @@ function HeaderLink(props) {
 
 function HeaderLinksWrapper() {
   const [selectedLink, setSelectedLink] = useState();
-  const onClick = useCallback(
-    ({ target }) => {
-      setSelectedLink(target.dataset.id);
-    },
-    [setSelectedLink]
-  );
+  const router = useRouter();
+
+  useEffect(() => {
+    setSelectedLink(router.asPath);
+  }, [router.asPath]);
 
   return (
     <>
@@ -44,9 +44,8 @@ function HeaderLinksWrapper() {
           href={href}
           text={text}
           data-id={id}
-          onClick={onClick}
           className={className}
-          data-selected={id === selectedLink ? true : undefined}
+          data-selected={selectedLink === `${href}/` ? true : undefined}
         />
       ))}
     </>

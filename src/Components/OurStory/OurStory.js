@@ -15,13 +15,13 @@ const preWeddingImages = [pw1, pw2, pw3];
 
 export default function OurStory() {
   return (
-    <div className={`content ${styles["content"]}`}>
+    <div className="content">
       <div className="panel">
         <h2 className={`${styles["our-story-header"]} with-icon`}>Our Story</h2>
         <div className={styles.columns}>
           <div className={styles["story-content"]}>
             <img src={austin.default.src} className={styles.profile} />
-            <h3>Austin's Side of the Story</h3>
+            <h3>Austin&apos;s Side of the Story</h3>
 
             <div className="panel-content">
               <p>
@@ -44,12 +44,12 @@ export default function OurStory() {
                 <br />
                 Six months and several dates later, we had planned on a movie
                 date to watch a very unromantic <i>Deep Water Horizon</i>.
-                Unfortunalely, it was that or a biopic; there just weren't that
-                many options. The morning of, my dad was driving me home after
-                kung fu, and I told him that I felt like I wanted to take this
-                relationship to the next step. He encouraged me, which I was
-                grateful for, but reality set in that I knew I was going to ask
-                today. From then I started feeling nervous.
+                Unfortunalely, it was that or a biopic; there just weren&apos;t
+                that many options. The morning of, my dad was driving me home
+                after kung fu, and I told him that I felt like I wanted to take
+                this relationship to the next step. He encouraged me, which I
+                was grateful for, but reality set in that I knew I was going to
+                ask today. From then I started feeling nervous.
                 <br />
                 <br />
                 The whole time during the movie, I kept feeling a deep pang in
@@ -84,23 +84,23 @@ export default function OurStory() {
                 proposal and set the plan into motion.
                 <br />
                 <br />
-                On July 18th, 2020, Sally said "Yes"! We are now in the process
-                of planning for our wedding!
+                On July 18th, 2020, Sally said &quot;Yes&quot;! We are now in
+                the process of planning for our wedding!
               </p>
             </div>
           </div>
 
           <div className={styles["story-content"]}>
             <img src={sally.default.src} className={styles.profile} />
-            <h3>Sally's Side of the Story</h3>
+            <h3>Sally&apos;s Side of the Story</h3>
 
             <div className="panel-content">
               <p>
                 When I first met Austin at church, I was introduced to everyone.
                 I remember being very confused on why Austin and his brother
-                both had the same name. It wasn't until I looked up Austin on
-                Facebook that I realized they actually had different names. (I
-                didn’t add him though)
+                both had the same name. It wasn&apos;t until I looked up Austin
+                on Facebook that I realized they actually had different names.
+                (I didn’t add him though)
                 <br />
                 <br />
                 One night after fellowship, we realized that we actually lived
