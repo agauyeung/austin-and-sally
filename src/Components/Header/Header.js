@@ -6,7 +6,7 @@ import { useRouter } from "next/router";
 const linksDef = [
   {
     id: "wedding",
-    href: "/wedding",
+    href: "/",
     text: "Wedding",
     className: `${styles.wedding} with-icon`
   },
@@ -33,7 +33,11 @@ function HeaderLinksWrapper() {
   const router = useRouter();
 
   useEffect(() => {
-    setSelectedLink(router.asPath);
+    const path =
+      router.asPath === "/"
+        ? "/"
+        : router.asPath.substring(0, router.asPath.length - 1);
+    setSelectedLink(path);
   }, [router.asPath]);
 
   return (
@@ -45,7 +49,7 @@ function HeaderLinksWrapper() {
           text={text}
           data-id={id}
           className={className}
-          data-selected={selectedLink === `${href}/` ? true : undefined}
+          data-selected={selectedLink === href ? true : undefined}
         />
       ))}
     </>
