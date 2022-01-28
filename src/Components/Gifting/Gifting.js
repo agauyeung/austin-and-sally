@@ -39,9 +39,8 @@ export default function Gifting() {
             gift,{" "}
             <b>
               <a href="https://www.zola.com/registry/sallyandaustin2022">
-                click here
-              </a>{" "}
-              to view our wedding registry.
+                click here to view our wedding registry.
+              </a>
             </b>
           </p>
         </div>
