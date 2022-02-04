@@ -7,6 +7,13 @@
   width: 100%;
 }
 
+.help {
+  background-color: var(--main-bg-color);
+  bottom: 0;
+  padding: 0.5rem 1rem;
+  position: fixed;
+}
+
 @media only screen and (max-width: 768px) {
   .panel {
     width: auto;
