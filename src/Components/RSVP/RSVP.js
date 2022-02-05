@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./RSVP.module.css";
 
+//Deprecated
 export default function RSVP() {
   return (
     <div className="content">

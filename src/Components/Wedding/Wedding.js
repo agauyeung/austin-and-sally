@@ -16,9 +16,12 @@ export default function Wedding() {
         <div className={styles["invite-wrapper"]}>
           <img src={invite.default.src} className={styles.invite} />
         </div>
-        <Link href="/rsvp">
-          <a className={`${styles["rsvp-button"]} button`}>RSVP Now</a>
-        </Link>
+        <a
+          href="https://forms.gle/a4ydKwzu6e6EDn3a6"
+          className={`${styles["rsvp-button"]} button`}
+        >
+          RSVP Now
+        </a>
       </div>
       <br />
       <div className={`panel ${styles.faqContainer}`}>
