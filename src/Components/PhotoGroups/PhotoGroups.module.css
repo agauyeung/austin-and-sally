@@ -1,0 +1,19 @@
+.header::before {
+  content: "\e412";
+}
+
+.groupWrapper {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  display: flex;  
+  margin-top: 0;
+  padding: 1rem 2rem;
+}
+
+.time {
+  font-size: 4rem;
+  margin-right: 5rem;
+}
+
+.groupDetails {
+  text-align: left;
+}

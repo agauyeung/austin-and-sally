@@ -1,6 +1,6 @@
 import React from "react";
-import FAQ from "../FAQ/FAQ";
-import Link from "next/link";
+import FAQ from "../FAQ";
+import PhotoGroups from "../PhotoGroups";
 import styles from "./Wedding.module.css";
 import * as invite from "/public/images/wedding_invite.jpg";
 
@@ -22,6 +22,10 @@ export default function Wedding() {
         >
           RSVP Now
         </a>
+      </div>
+      <br />
+      <div className={`panel ${styles.photoGroupsContainer}`}>
+        <PhotoGroups />
       </div>
       <br />
       <div className={`panel ${styles.faqContainer}`}>

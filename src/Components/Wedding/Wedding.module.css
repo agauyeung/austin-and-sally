@@ -24,6 +24,7 @@
   -ms-transform: translate(-50%, -50%);
 }
 
+.photoGroupsContainer
 .faqContainer {
   max-width: 50%;
 }
@@ -40,7 +41,8 @@
   .rsvp-button {
     font-size: 1rem;
   }
-
+  
+  .photoGroupsContainer,
   .faqContainer {
     max-width: 100%;
   }
